@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    font-family: General Sans, system-ui, sans-serif;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .heading3-title {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+  }
+  .podcast-title {
+    font-weight: 600;
+    font-size: clamp(1rem, 0.8997rem + 3.3439vw, 6.25rem);
+    text-transform: uppercase;
+  }
+  .text-blog-subheading {
+    font-weight: 600;
+    font-size: clamp(3rem, 2.7857rem + 1.0714vw, 4.5rem);
+  }
+  .text-blog-quote {
+    font-weight: 600;
+    font-size: clamp(2rem, 1.8571rem + 0.7143vw, 3rem);
+  }
+  .text-blog-summary {
+    font-weight: 500;
+    font-size: 1.375rem;
+  }
+  .text-subheading {
+    font-weight: 600;
+    /* font-size: clamp(3.25rem, 2.4853rem + 3.8235vw, 6.5rem); */
+    font-size: clamp(2.25rem, 1.6429rem + 3.0357vw, 6.5rem);
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  .text-subtitle {
+    line-height: 1;
+  }
+  .text-footer-title {
+    color: #ffffff;
+  }
+  .text-subtitle,
+  .text-footer-title {
+    font-size: clamp(2.625rem, 1.9917rem + 3.1667vw, 5rem);
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}
+
+/* * {
+  outline: 1px solid red;
+} */
+
+@font-face {
+  font-family: "General Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/general-sans/GeneralSans-Regular.woff2"), format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "General Sans";
+  font-weight: 500;
+  font-style: normal;
+  src: url("/fonts/general-sans/GeneralSans-Medium.woff2"), format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "General Sans";
+  font-weight: 600;
+  font-style: normal;
+  src: url("/fonts/general-sans/GeneralSans-Semibold.woff2"), format("woff2");
+  font-display: swap;
+}

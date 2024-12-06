@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import magazineCover from './images/homepage/magazine-cover.jpg';
+import magazineCover from '../../public/images/homepage/magazine-cover.jpg';
 
 import NewsletterSignUp from './NewsletterSignUp';
 import PopularArticles from './PopularArticles';

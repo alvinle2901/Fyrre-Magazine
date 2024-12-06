@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 
 import PageTitle from '@/components/PageTitle';
-import PodcastsList from '@/components/PodcastsList/PodcastsList';
+import PodcastsList from '@/components/PodcastsList';
 import Loading from '@/components/PodcastsList/loading';
 
 export const metadata = {

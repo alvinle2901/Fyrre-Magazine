@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
-import { ArticleType, getArticles } from '@/src/app/functions/getArticles';
-import PostNavigation from '@/src/components/PostNavigation';
-import SocialSharing from '@/src/components/SocialSharing';
-import Subheading from '@/src/components/Subheading';
+import { ArticleType, getArticles } from '@/actions/getArticles';
+import PostNavigation from '@/components/PostNavigation';
+import SocialSharing from '@/components/SocialSharing';
+import Subheading from '@/components/Subheading';
 
 export async function generateMetadata({ params }: { params: { title: string } }) {
   const articles: ArticleType[] = await getArticles();

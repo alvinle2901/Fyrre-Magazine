@@ -1,11 +1,11 @@
 import { Suspense } from 'react';
 
-import Authors from '@/components/Authors/Authors';
+import Authors from '@/components/Authors';
 import AuthorsLoading from '@/components/Authors/loading';
-import LatestArticles from '@/components/LatestArticles/LatestArticles';
-import LatestPodcasts from '@/components/LatestPodcasts/LatestPodcasts';
+import LatestArticles from '@/components/LatestArticles';
+import LatestPodcasts from '@/components/LatestPodcasts';
 import LatestPodcastsLoading from '@/components/LatestPodcasts/loading';
-import NewsTicker from '@/components/NewsTicker/NewsTicker';
+import NewsTicker from '@/components/NewsTicker';
 import NewsLoading from '@/components/NewsTicker/loading';
 import PageTitle from '@/components/PageTitle';
 import Subheading from '@/components/Subheading';

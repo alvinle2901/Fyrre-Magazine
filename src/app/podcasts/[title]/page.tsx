@@ -1,5 +1,5 @@
 import { PodcastType, getPodcasts } from '@/actions/getPodcasts';
-import LatestPodcasts from '@/components/LatestPodcasts/LatestPodcasts';
+import LatestPodcasts from '@/components/LatestPodcasts';
 import PostNavigation from '@/components/PostNavigation';
 import SocialSharing from '@/components/SocialSharing';
 import PodcastContextProvider from '@/context/PodcastContext';

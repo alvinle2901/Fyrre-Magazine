@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 
-import Articles from '@/components/Articles/Articles';
+import Articles from '@/components/Articles';
 import Loading from '@/components/Articles/loading';
 import PageTitle from '@/components/PageTitle';
 

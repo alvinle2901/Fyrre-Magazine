@@ -1,0 +1,10 @@
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+drizzle/
+*.config.ts
+*.conig.mjs
+*.json
+*.md
+*.js

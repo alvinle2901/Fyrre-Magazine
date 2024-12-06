@@ -31,14 +31,20 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.40.0",
+    "@trivago/prettier-plugin-sort-imports": "^5.0.1",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
     "husky": "^8.0.0",
     "postcss": "latest",
+    "prettier": "^3.4.2",
+    "prettier-plugin-svelte": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.9",
     "tailwindcss": "latest",
     "typescript": "latest"
   }
